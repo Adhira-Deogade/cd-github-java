@@ -1,8 +1,7 @@
 package schooldomain.studentname.connecteddevices.common;
 
-/*
- * Simple Java class that is used for file transfer between json file and SensorData class
- * @author: Shyama Sastha Krishnamoorthy Srinivasan 
+/** File transfer between json file and SensorData class
+ * @author: Adhira
  */
 
 
