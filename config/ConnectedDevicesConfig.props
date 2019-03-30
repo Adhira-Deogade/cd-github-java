@@ -1,7 +1,7 @@
 [ubidots.cloud]
-apiKey         = Not Set
+apiKey         = A1E-4abcf0778bee48f759b12e19359bef0e163b
 userNameToken  = Not Set
-authToken      = Not Set
+authToken      = A1E-oIBRNfbQ3Soe81cuUBmR10PozvY5co
 protocol       = ssl
 host           = things.ubidots.com
 port           = 8883
