@@ -1,7 +1,8 @@
+
 package schooldomain.studentname.connecteddevices.labs.module06;
-/*
- * Jave script for MQTT Subscriber Client
- * @author: (modified by) Shyama Sastha Krishnamoorthy Srinivasan 
+
+/** Java script for MQTT Subscriber Client
+ * @author: Adhira 
  */
 
 import java.util.logging.Logger;
@@ -51,10 +52,10 @@ public class MqttSubClientTestApp {
 			logger.info("\nJson Recieved:");
 			System.out.println("\nJson Received: \n" + message);
 			DataUtil data = new DataUtil();								
-			SensorData sensor = data.JsonToSensorData(message,null);    //Json to SensorData Conversion
+			SensorData sensor = data.fromJson(message,null);    //Json to SensorData Conversion
 			logger.info("\nConverted SensorData:");
 			System.out.println("\nAfter Json to SensorData Conversion: \n"+ sensor);
-			String json = data.SensorDataToJson(sensor);				//SensorData to Json Conversion
+			String json = data.toJson(sensor);				//SensorData to Json Conversion
 			logger.info("\nConverted Json:");
 			System.out.println("\nAfter conversion back to Json: \n"+ json);
 		}

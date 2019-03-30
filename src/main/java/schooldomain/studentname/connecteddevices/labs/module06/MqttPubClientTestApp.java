@@ -1,7 +1,7 @@
 package schooldomain.studentname.connecteddevices.labs.module06;
-/*
- * Jave script for MQTT Subscriber Client
- * @author: (modified by) Shyama Sastha Krishnamoorthy Srinivasan 
+
+/** Java script for MQTT Subscriber Client
+ * @author: Adhira 
  */
 
 import java.util.logging.Logger;
@@ -30,7 +30,7 @@ public class MqttPubClientTestApp {
 		SensorData sd = setSensorData(sensorData);
 		logger.info("Before conversion to Json: \n");
 		System.out.println(data + "\n");
-		String Jobj = data.SensorDataToJson(sd);
+		String Jobj = data.toJson(sd);
 		return Jobj;
 	}
 	
