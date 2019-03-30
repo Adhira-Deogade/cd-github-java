@@ -7,8 +7,8 @@ host           = things.ubidots.com
 port           = 8883
 useWebAccess   = True
 baseUrl        = https://things.ubidots.com/api/v1.6/
-certFile       = /home/motion/config/ubidots_cert.pem
-configPath     = /home/motion/config
+certFile       = ubidots_cert.pem
+configPath     = /Users/Adhira/git/conDevJava/connected-devices-java/config/
 
 [smtp.cloud]
 host           = Not Set
