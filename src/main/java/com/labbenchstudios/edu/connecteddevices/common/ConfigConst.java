@@ -31,7 +31,7 @@ package com.labbenchstudios.edu.connecteddevices.common;
 public class ConfigConst
 {
 	public static final String SECTION_SEPARATOR        = ".";
-	public static final String DATA_PATH                = "/home/pi/Applications/data/";
+	public static final String DATA_PATH                = "/Users/Adhira/git/conDevJava/connected-devices-java/config/";
 	public static final String DEFAULT_CONFIG_FILE_NAME = DATA_PATH + "ConnectedDevicesConfig.props";
 
 	public static final String DEFAULT_COAP_PROTOCOL  = "coap";
@@ -50,6 +50,7 @@ public class ConfigConst
 	public static final int    DEFAULT_MQTT_PORT      = 1883;
 	public static final int    SECURE_MQTT_PORT       = 8883;
 	public static final int    DEFAULT_QOS_LEVEL      =    0;
+	public static final String DEFAULT_API_KEY        = "A1E-4abcf0778bee48f759b12e19359bef0e163b";
 	
 	public static final String CLOUD                  = "cloud";
 	public static final String MQTT                   = "mqtt";
