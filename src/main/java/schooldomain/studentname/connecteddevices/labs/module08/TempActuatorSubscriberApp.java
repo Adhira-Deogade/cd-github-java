@@ -53,7 +53,7 @@ public class TempActuatorSubscriberApp extends Thread{
 			_mqttClient.connect();
 			while(true) {
 				_mqttClient.subscribeToTopic(topicName);
-				Thread.sleep(36000);
+				Thread.sleep(30000);
 			}
 		} catch (InterruptedException e) {
 			_mqttClient.disconnect();

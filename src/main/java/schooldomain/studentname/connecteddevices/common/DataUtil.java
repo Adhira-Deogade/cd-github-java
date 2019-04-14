@@ -32,7 +32,7 @@ public class DataUtil {
 	/*
 	 * To get object from Json to object
 	 */
-	public SensorData fromJson(String jsondata,String filename)
+	public SensorData fomJson(String jsondata,String filename)
 	{
 		SensorData sensorData=null;
 		Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create();

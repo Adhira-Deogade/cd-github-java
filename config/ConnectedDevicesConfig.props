@@ -6,7 +6,7 @@ protocol       = ssl
 host           = things.ubidots.com
 port           = 8883
 useWebAccess   = True
-baseUrl        = https://things.ubidots.com/api/v1.6/
+baseUrl        = things.ubidots.com
 certFile       = ubidots_cert.pem
 configPath     = /Users/Adhira/git/conDevJava/connected-devices-java/config/
 
